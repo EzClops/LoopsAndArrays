@@ -14,7 +14,7 @@
 
 
 */
-let testArray = [2, 4, 6, 8, 11, 20, 15, 22];
+let testArray = [2, 4, 6, 8, 10, 11, 12];
 
 function onlyOdds(array) {
     let oddArray = [];
@@ -28,6 +28,7 @@ function onlyOdds(array) {
 }
 
 onlyOdds(testArray);
+
 /* [2, 4, 6, 8, 11, 20, 15, 22]
     //2 - oddArray[]
     //4 - oddArray[]
